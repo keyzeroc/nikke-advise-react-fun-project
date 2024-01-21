@@ -15,7 +15,7 @@ export default function NikkeSelector() {
   }
 
   return (
-    <div className="min-w-96">
+    <div className="min-w-80">
       <button
         className="p-4 outline-0 border-0 rounded-t-full bg-selector/60 text-white cursor-pointer transition hover:bg-selector-hover/60 hover:text-black w-full"
         onClick={showSelectorHandler}

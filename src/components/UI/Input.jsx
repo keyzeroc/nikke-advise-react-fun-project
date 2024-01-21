@@ -21,7 +21,7 @@ export default function Input() {
 
   return (
     <input
-      className="min-w-96 p-8 mb-8 h-min w-full rounded-b-3xl text-black bg-color-bg/60 focus:outline-none placeholder:text-slate-700"
+      className="min-w-80 p-8 mb-8 h-min w-full rounded-b-3xl text-black bg-color-bg/60 focus:outline-none placeholder:text-slate-700"
       type="search"
       name="search"
       placeholder="Start typing...."

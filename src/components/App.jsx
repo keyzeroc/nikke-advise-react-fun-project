@@ -10,7 +10,7 @@ function App() {
     <NikkeListProvider>
       <Background>
         <Nav />
-        <div className="p-4 md:p-64">
+        <div className="p-2 sm:p-8 md:p-16 lg:p-24 xl:p-32 2xl:p-64">
           <NikkeSelector />
           <Input />
           <Interactions />

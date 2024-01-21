@@ -3,7 +3,7 @@ import Nikke from "./Nikke";
 
 export default function Interaction(props) {
   return (
-    <li className="min-w-96 p-4 mt-8 grid md:grid-rows-2-sm md:grid-cols-auto-4 h-max align-top bg-color-bg/60 rounded-3xl ">
+    <li className="min-w-80 p-4 mt-8 grid md:grid-rows-2-sm md:grid-cols-auto-4 h-max align-top bg-color-bg/60 rounded-3xl ">
       <div className="row-span-2">
         <Nikke nikke={props.nikke} />
       </div>

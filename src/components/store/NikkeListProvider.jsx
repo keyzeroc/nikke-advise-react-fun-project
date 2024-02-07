@@ -49,7 +49,7 @@ export default function NikkeListProvider(props) {
       onNikkeSelect: nikkeSelectHandler,
       filterList: filterList,
     };
-  });
+  }, [filteredList, searchValue, selectedNikke]);
 
   return (
     <NikkeListContext.Provider value={providerValues}>

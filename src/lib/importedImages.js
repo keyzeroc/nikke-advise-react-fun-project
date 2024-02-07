@@ -91,6 +91,11 @@ import n102 from '../img/avatars/n102.webp'
 import neon from '../img/avatars/neon.webp'
 import rapi from '../img/avatars/rapi.webp'
 import neve from '../img/avatars/neve.webp'
+import ade from '../img/avatars/ade.webp'
+import privaty_um from '../img/avatars/privaty_um.webp'
+import moran from '../img/avatars/moran.webp'
+import leona from '../img/avatars/leona.webp'
+
 
 const nameImage = {
     'Scarlet - Black Shadow': scarlet_bs,
@@ -184,7 +189,11 @@ const nameImage = {
     'Soda': soda,
     'Sakura': sakura,
     'Nihilister': nihilister,
-    'D': d
+    'D': d,
+    'Leona': leona,
+    'Moran': moran,
+    'Privaty - Unkind Maid': privaty_um,
+    'Ade': ade
 }
 
 const getImageFromName = (name) => {

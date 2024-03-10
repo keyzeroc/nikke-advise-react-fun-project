@@ -80,21 +80,23 @@ import signal from '../img/avatars/signal.webp';
 import anis_ss from '../img/avatars/anis_ss.webp';
 import neon_bo from '../img/avatars/neon_bo.webp';
 import soline from '../img/avatars/soline.webp';
-import anchor from '../img/avatars/anchor.webp'
-import anis from '../img/avatars/anis.webp'
-import belorta from '../img/avatars/belorta.webp'
-import delta from '../img/avatars/delta.webp'
-import ether from '../img/avatars/ether.webp'
-import mica from '../img/avatars/mica.webp'
-import mihara from '../img/avatars/mihara.webp'
-import n102 from '../img/avatars/n102.webp'
-import neon from '../img/avatars/neon.webp'
-import rapi from '../img/avatars/rapi.webp'
-import neve from '../img/avatars/neve.webp'
-import ade from '../img/avatars/ade.webp'
-import privaty_um from '../img/avatars/privaty_um.webp'
-import moran from '../img/avatars/moran.webp'
-import leona from '../img/avatars/leona.webp'
+import anchor from '../img/avatars/anchor.webp';
+import anis from '../img/avatars/anis.webp';
+import belorta from '../img/avatars/belorta.webp';
+import delta from '../img/avatars/delta.webp';
+import ether from '../img/avatars/ether.webp';
+import mica from '../img/avatars/mica.webp';
+import mihara from '../img/avatars/mihara.webp';
+import n102 from '../img/avatars/n102.webp';
+import neon from '../img/avatars/neon.webp';
+import rapi from '../img/avatars/rapi.webp';
+import neve from '../img/avatars/neve.webp';
+import ade from '../img/avatars/ade.webp';
+import privaty_um from '../img/avatars/privaty_um.webp';
+import moran from '../img/avatars/moran.webp';
+import leona from '../img/avatars/leona.webp';
+import elegg from '../img/avatars/elegg.webp';
+import d_kw from '../img/avatars/d_kw.webp';
 
 
 const nameImage = {
@@ -193,7 +195,9 @@ const nameImage = {
     'Leona': leona,
     'Moran': moran,
     'Privaty - Unkind Maid': privaty_um,
-    'Ade': ade
+    'Ade': ade,
+    'Elegg': elegg,
+    'D - Killer Wife': d_kw
 }
 
 const getImageFromName = (name) => {
